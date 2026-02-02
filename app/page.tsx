@@ -216,7 +216,7 @@ export default function Home() {
                     img.parentElement?.classList.add("proj-media-fallback");
                   }}
                 />
-                <span className="proj-date">May 2024 – Aug 2024</span>
+                <span className="proj-date">Sept 2024 – Dec 2024</span>
               </div>
 
               <div className="proj-body">
@@ -247,7 +247,7 @@ export default function Home() {
                     img.parentElement?.classList.add("proj-media-fallback");
                   }}
                 />
-                <span className="proj-date">Sept 2024 – Dec 2024</span>
+                <span className="proj-date">Jan  2025 – April 2025</span>
               </div>
 
               <div className="proj-body">
@@ -269,6 +269,38 @@ export default function Home() {
             <article className="proj-card">
               <div className="proj-media">
                 <img
+                  src="/assets/Uni.png"
+                  alt="Project screenshot"
+                  onError={(e) => {
+                    const img = e.currentTarget as HTMLImageElement;
+                    img.style.display = "none";
+                    img.parentElement?.classList.add("proj-media-fallback");
+                  }}
+                />
+                <span className="proj-date">Jan 2026 - Present</span>
+              </div>
+
+              <div className="proj-body">
+                <h3 className="proj-title">Credit Card Fraud Detection</h3>
+                <p className="proj-desc">
+                  This project is a Credit Card Fraud Detection system built with machine learning to identify suspicious transactions.
+                  I trained and tested multiple models to learn patterns from real financial data and predict potential fraud.
+                  The final model balances catching fraud while minimizing false alarms for legitimate users.
+                </p>
+
+                <div className="proj-tags">
+                  <span className="tag tag-purple">Python</span>
+                  <span className="tag tag-purple">Panadas</span>
+                  <span className="tag tag-purple">Numpy</span>
+                  <span className="tag tag-purple">scikit-learn</span>
+                  <span className="tag tag-purple">ML</span>
+                </div>
+              </div>
+            </article>
+
+            <article className="proj-card">
+              <div className="proj-media">
+                <img
                   src="/assets/casinoGame.png"
                   alt="Project screenshot"
                   onError={(e) => {
@@ -277,7 +309,7 @@ export default function Home() {
                     img.parentElement?.classList.add("proj-media-fallback");
                   }}
                 />
-                <span className="proj-date">Jan 2025 – Present</span>
+                <span className="proj-date">July 2025 – Aug 2025</span>
               </div>
 
               <div className="proj-body">
@@ -304,7 +336,7 @@ export default function Home() {
                     img.parentElement?.classList.add("proj-media-fallback");
                   }}
                 />
-                <span className="proj-date">Jan 2025 – Present</span>
+                <span className="proj-date">Jan 2026 – Present</span>
               </div>
 
               <div className="proj-body">
