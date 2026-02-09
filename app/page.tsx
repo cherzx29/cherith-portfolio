@@ -502,7 +502,7 @@ export default function Home() {
             </p>
             <div className="contact-mini-tags" aria-hidden="true">
               <span className="mini-tag">Open to collabs</span>
-              <span className="mini-tag">Oppurtunities</span>
+              <span className="mini-tag">Opportunities</span>
             </div>
           </article>
 
