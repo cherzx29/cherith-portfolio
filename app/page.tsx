@@ -131,7 +131,7 @@ export default function Home() {
 
               <a
                 className="pill resume-btn"
-                href="/assets/Cherith%20Boya%20Resume%20(6).pdf"
+                href="/assets/cherithboyaresume.pdf"
                 target="_blank"
                 rel="noopener"
               >
@@ -290,9 +290,9 @@ export default function Home() {
 
                 <div className="proj-tags">
                   <span className="tag tag-purple">Python</span>
-                  <span className="tag tag-purple">Panadas</span>
+                  <span className="tag tag-purple">Pandas</span>
                   <span className="tag tag-purple">Numpy</span>
-                  <span className="tag tag-purple">scikit-learn</span>
+                  <span className="tag tag-purple">Scikit-learn</span>
                   <span className="tag tag-purple">ML</span>
                 </div>
               </div>
@@ -390,7 +390,7 @@ export default function Home() {
 
                 <div className="exp-tags">
                   <span className="tag">Systems Thinking</span>
-                  <span className="tag">Techincal Discipline</span>
+                  <span className="tag">Technical Discipline</span>
                   <span className="tag">Problem Solving</span>
                   <span className="tag">Leadership</span>
                 </div>
@@ -467,7 +467,7 @@ export default function Home() {
                 </ul>
 
                 <div className="exp-tags">
-                  <span className="tag">Risk assessment</span>
+                  <span className="tag">Risk Assessment</span>
                   <span className="tag">Critical Decision-Making</span>
                   <span className="tag">Technical Discipline</span>
                   <span className="tag">Leadership</span>
