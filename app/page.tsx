@@ -105,7 +105,7 @@ export default function Home() {
             <h1>Hello! I'm Cherith Boya,</h1>
             <div className="hero-card">
               <p className="hero-text">
-                I am a second year Computer Engineering student at the University of Guelph who loves building, coding, and bringing
+                I am a upcoming third year Computer Engineering student at the University of Guelph who loves building, coding, and bringing
                 ideas to life through technology. I’m currently excited to dive deeper into hardware and embedded systems, exploring
                 robotics, sensors, and control-based projects. Feel free to check out my work and reach out about opportunities,
                 collaborations, or anything tech-related!
