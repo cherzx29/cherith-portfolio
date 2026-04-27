@@ -352,6 +352,37 @@ export default function Home() {
                 </div>
               </div>
             </article>
+
+            <article className="proj-card">
+              <div className="proj-media">
+                <img
+                  src="/assets/cf.png"
+                  alt="Project screenshot"
+                  onError={(e) => {
+                    const img = e.currentTarget as HTMLImageElement;
+                    img.style.display = "none";
+                    img.parentElement?.classList.add("proj-media-fallback");
+                  }}
+                />
+                <span className="proj-date">Jan 2026 - April 2026</span>
+              </div>
+
+              <div className="proj-body">
+                <h3 className="proj-title">Kinder Egg Mechanical Toy Design Project</h3>
+                <p className="proj-desc">
+                  It was a team engineering design project that aimed to create a mechanical toy that worked from concept to prototype. I helped create CAD parts in SolidWorks and design components for the final build and assisted with the prototype's 3D printing, assembly, testing, and troubleshooting to guarantee optimal functioning. We then collaborated throughout the project lifecycle and presented the completed product during the team's final showcase.
+                </p>
+
+                <div className="proj-tags">
+                  <span className="tag tag-purple">Solidworks CAD</span>
+                  <span className="tag tag-purple">3D Printing</span>
+                  <span className="tag tag-purple">Product Design</span>
+                  <span className="tag tag-purple">Project Managment</span>
+                  <span className="tag tag-purple">Team Collaboration</span>
+                  <span className="tag tag-purple">Problem Solving</span>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
       </section>
