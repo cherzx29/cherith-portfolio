@@ -370,16 +370,13 @@ export default function Home() {
               <div className="proj-body">
                 <h3 className="proj-title">Kinder Egg Mechanical Toy Design Project</h3>
                 <p className="proj-desc">
-                  It was a team engineering design project that aimed to create a mechanical toy that worked from concept to prototype. I helped create CAD parts in SolidWorks and design components for the final build and assisted with the prototype's 3D printing, assembly, testing, and troubleshooting to guarantee optimal functioning. We then collaborated throughout the project lifecycle and presented the completed product during the team's final showcase.
+                  Worked on a team engineering design project to create a mechanical toy from concept to prototype, contributing CAD parts in SolidWorks, assisting with 3D printing, assembly, testing, troubleshooting, and presenting the final product at the team showcase.
                 </p>
 
                 <div className="proj-tags">
                   <span className="tag tag-purple">Solidworks CAD</span>
                   <span className="tag tag-purple">3D Printing</span>
-                  <span className="tag tag-purple">Product Design</span>
                   <span className="tag tag-purple">Project Managment</span>
-                  <span className="tag tag-purple">Team Collaboration</span>
-                  <span className="tag tag-purple">Problem Solving</span>
                 </div>
               </div>
             </article>
