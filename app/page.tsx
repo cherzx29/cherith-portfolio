@@ -356,7 +356,7 @@ export default function Home() {
             <article className="proj-card">
               <div className="proj-media">
                 <img
-                  src="/assets/cf.png"
+                  src="/assets/buoyblaster.jpeg"
                   alt="Project screenshot"
                   onError={(e) => {
                     const img = e.currentTarget as HTMLImageElement;
