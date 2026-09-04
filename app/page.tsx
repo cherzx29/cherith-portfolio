@@ -105,10 +105,13 @@ export default function Home() {
             <h1>Hello! I'm Cherith Boya,</h1>
             <div className="hero-card">
               <p className="hero-text">
-                I am a upcoming third year Computer Engineering student at the University of Guelph who loves building, coding, and bringing
-                ideas to life through technology. I’m currently excited to dive deeper into hardware and embedded systems, exploring
-                robotics, sensors, and control-based projects. Feel free to check out my work and reach out about opportunities,
-                collaborations, or anything tech-related!
+                As a third-year University of Guelph student studying computer engineering, 
+                my goal is to develop into a well-rounded cloud engineer. I'm gaining practical 
+                experience with Azure, networking, Linux, and cloud-native development with the goal of 
+                understanding the underlying principles rather than just the surface level. 
+                Additionally, I enjoy doing practical hardware work, and I'm always interested in projects 
+                involving robotics, sensors, or embedded systems. Feel free to check out my work and reach out 
+                about internships, collaborations, or anything tech-related!
               </p>
 
               <div className="hero-divider"></div>
