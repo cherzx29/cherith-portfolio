@@ -436,7 +436,7 @@ export default function Home() {
               <div className="exp-content">
                 <div className="exp-top">
                   <div>
-                    <h3 className="exp-role">Software & Embedded Systems Developer</h3>
+                    <h3 className="exp-role">Software Developer</h3>
                     <p className="exp-company">Guelph Racing Club (Embedded Systems Team) - Guelph, ON</p>
                   </div>
                   <span className="exp-date">Sept 2025 – Present</span>
