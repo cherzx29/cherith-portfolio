@@ -387,7 +387,7 @@ export default function Home() {
             <article className="proj-card">
               <div className="proj-media">
                 <img
-                  src="/assets/CostEffTrakcer.png"
+                  src="/assets/azure.png"
                   alt="Project screenshot"
                   onError={(e) => {
                     const img = e.currentTarget as HTMLImageElement;
