@@ -430,6 +430,44 @@ export default function Home() {
 
             <div className="exp-card">
               <div className="exp-logo" aria-hidden="true">
+                <img src="/assets/gracing.jpeg" alt="Leadership logo" className="exp-logo-img" />
+              </div>
+
+              <div className="exp-content">
+                <div className="exp-top">
+                  <div>
+                    <h3 className="exp-role">Software & Embedded Systems Developer</h3>
+                    <p className="exp-company">Guelph Racing Club (Embedded Systems Team) - Guelph, ON</p>
+                  </div>
+                  <span className="exp-date">Sept 2025 – Present</span>
+                </div>
+
+                <ul className="exp-bullets">
+                  <li>Contribute to the development of Guelph Racing Club's GRC-27 telemetry system, supporting software and vehicle electronics integration.</li>
+                  <li>Collaborate with electrical and software subteams to troubleshoot system issues, validate functionality, and improve telemetry reliability.</li>
+                  <li>Work towards becoming an Embedded Systems Lead, expanding knowledge of microcontrollers, embedded software, and hardware-software integration.</li>
+                </ul>
+
+                <div className="exp-tags">
+                  <span className="tag">AC Telemtry</span>
+                  <span className="tag">Software Debugging</span>
+                  <span className="tag">Problem Solving</span>
+                  <span className="tag">Leadership</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div className="exp-timeline">
+          <article className="exp-item">
+            <div className="exp-marker">
+              <span className="exp-dot"></span>
+              <span className="exp-line"></span>
+            </div>
+
+            <div className="exp-card">
+              <div className="exp-logo" aria-hidden="true">
                 <img src="/assets/ac.png" alt="Leadership logo" className="exp-logo-img" />
               </div>
 
