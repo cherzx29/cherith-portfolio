@@ -383,6 +383,36 @@ export default function Home() {
                 </div>
               </div>
             </article>
+
+            <article className="proj-card">
+              <div className="proj-media">
+                <img
+                  src="/assets/CostEffTrakcer.png"
+                  alt="Project screenshot"
+                  onError={(e) => {
+                    const img = e.currentTarget as HTMLImageElement;
+                    img.style.display = "none";
+                    img.parentElement?.classList.add("proj-media-fallback");
+                  }}
+                />
+                <span className="proj-date">July 2026 - August 2026</span>
+              </div>
+
+              <div className="proj-body">
+                <h3 className="proj-title">Cloud Cost Efficiency Project</h3>
+                <p className="proj-desc">
+                  I developed a Cloud Cost Efficiency Tracker using Microsoft Azure and Python to monitor cloud resource utilization, retrieve spending data through Azure Cost Management APIs, and identify underutilized virtual machines using Azure Monitor. I implemented automated cost optimization recommendations and built a custom web dashboard using HTML, CSS, and JavaScript, identifying potential monthly savings of $1.66 through resource downsizing.
+                </p>
+
+                <div className="proj-tags">
+                  <span className="tag tag-purple">Microsoft Azure</span>
+                  <span className="tag tag-purple">Python</span>
+                  <span className="tag tag-purple">REST API Integration</span>
+                  <span className="tag tag-purple">HTML/CSS</span>
+                  <span className="tag tag-purple">JavaScript</span>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
       </section>
